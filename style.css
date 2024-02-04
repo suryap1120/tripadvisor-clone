@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+}       
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-one{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-one__tp0{
+    width: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.navbar-one__tp1{
+    width: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.navbar-one__tp2{
+    margin-left: 300px;
+    display: flex;
+    align-items:center;
+    font-size: 18px;
+    font-weight: 600;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.navbar-one__tp2__one{
+    margin-left: 200px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navbar-one__tp4{
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar-two__tp1{
+    margin-top:50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    align-items: center;
+}
+
+.navbar-two__tp2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.navbar-two__tp3{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    width: 900px;
+    border: solid 2px rgb(190, 190, 190);
+    border-radius: 30px;
+    padding: 5px;
+    margin-left: 510px;
+    cursor: pointer;
+}
+
+.navbar-two__tp3 input{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    outline: none;
+    width: 500px;
+    margin-left: 20px;
+}
+
+.navbar-two__tp4{
+    border-radius:30px;
+    text-align: center;
+    margin-left: 300px;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    background-color: rgb(109, 213, 114);
+    cursor: pointer;
+}
+
+.navbar-two__tp4 p{
+    width: 100px;
+}
+
+/* Main Design */
+
+.main-one{
+    background-color: hsl(225, 82%, 87%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-left: 250px;
+    width:1400px;
+    height: 600px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-one__md1__one h3{
+    border-width: 3px;
+    border-radius:30px;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(109, 213, 114);
+    cursor: pointer;
+}
+.main-two{
+    background-color: hsl(282, 45%, 94%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 250px;
+    width:1400px;
+    height: 250px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-one__md1__two{
+    border-width: 3px;
+    border-radius:30px;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(109, 213, 114);
+    cursor: pointer;
+}
+
+.text-one{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+/* Popular Visit */
+
+.popular-one{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 1400px;
+    margin-left: 250px;
+    justify-content: space-between;
+}
+
+.popular-one__pv img{
+    height: 350px;
+    width: 330px;
+    border-radius: 20px;
+}
+
+.text-two{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+/* Top Experience */
+
+.experience-one{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 1400px;
+    margin-left: 250px;
+    justify-content: space-between;
+}
+
+.experience-one__te img{
+    height: 350px;
+    width: 330px;
+    border-radius: 20px;
+}
+
+.text-three{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+/* likely */
+
+.likely-one{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 1400px;
+    margin-left: 250px;
+    justify-content: space-between;
+}
+
+.likely-one__l1 img{
+    height: 350px;
+    width: 330px;
+    border-radius: 20px;
+}
+
+/* Main-Sub Design */
+
+.mainsub-two{
+    background-color: hsl(282, 45%, 94%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 250px;
+    width:1400px;
+    height: 250px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mainsub-two__sd__two h3{
+    border-width: 3px;
+    border-radius:30px;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(109, 213, 114);
+    cursor: pointer;
+}
+
+.text-four{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+/* Vibrant Cities */
+
+.vibrant-one{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 1400px;
+    margin-left: 250px;
+    justify-content: space-between;
+}
+
+.vibrant-one__vc img{
+    height: 350px;
+    width: 330px;
+    border-radius: 20px;
+}
+
+/* Secondary Design */
+
+.second-one{
+    background-color: hsl(134, 58%, 55%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-left: 250px;
+    width:1400px;
+    height: 600px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.second-one__sd1__one h3{
+    border-width: 3px;
+    border-radius:30px;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(227, 233, 228);
+    cursor: pointer;
+}
+
+.second-two{
+    background-color: hsl(282, 45%, 94%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 250px;
+    width:1400px;
+    height: 250px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.second-two__sd__two h3{
+    border-width: 3px;
+    border-radius:30px;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(109, 213, 114);
+    cursor: pointer;
+}
+
+/* Explore Container */
+
+.explore-container{
+    width: 1893px;
+    background-color: hsl(42, 32%, 92%);
+    height:600px;
+    border: solid transparent;
+    margin-top: 80px;
+}
+/*Text-Five*/
+
+.text-five{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+/* More to Explore */
+
+.explore-one{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 1400px;
+    margin-left: 250px;
+    justify-content: space-between;
+}
+
+.explore-one__mc img{
+    height: 300px;
+    width:460px;
+    border-radius: 20px;
+}
+
+.text-six{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+/* Top Destination */
+
+.destination-one{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 1400px;
+    margin-left: 250px;
+    justify-content: space-between;
+}
+
+.destination-one__td img{
+    height: 350px;
+    width: 330px;
+    border-radius: 20px;
+}
+
+/* Video Blog */
+
+.video{
+    margin-top: 80px;
+    margin-left: 250px;
+}
+
+.text-seven{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 250px;
+}
+
+/* Home */
+
+.home-one{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 1400px;
+    margin-left: 250px;
+    justify-content: space-between;
+}
+
+.home-one__hr img{
+    height: 350px;
+    width: 330px;
+    border-radius: 20px;
+}
+
+/* Bottom Design Travel */
+
+.travel-container{
+    width: 1893px;
+    background-color: #ffedd3;
+    height:600px;
+    border: solid transparent;
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+.traveller-one{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 1400px;
+    margin-left: 250px;
+    justify-content: space-between;
+}
+
+.traveller-one__one{
+    border-width: 3px;
+    border-radius:30px;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(109, 213, 114);
+    cursor: pointer;
+}
+
+/* Footer Design */
+
+.footer-container{
+    width: 1893px;
+    background-color: rgb(249, 237, 234);
+    height:500px;
+    border: solid transparent;
+    margin-top: 80px;
+}
+
+.footer-one{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 1400px;
+    margin-left: 250px;
+    justify-content: space-between;
+}
+
+.footer-one__fc{
+    margin-top: 20px;
+}
